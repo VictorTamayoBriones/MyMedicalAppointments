@@ -5,5 +5,8 @@ public class Main {
         myDoctor.name = "Pedro Guadalupe Ramos";
         myDoctor.showName();
 
+
+        Doctor secondDoctor = new Doctor("Víctor");
+        secondDoctor.showName();
     }
 }
